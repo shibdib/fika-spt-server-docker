@@ -1,6 +1,6 @@
 services:
   fika-server:
-    image: github.com/shibdib/fika-spt-server-docker:latest
+    image: ghcr.io/shibdib/fika-spt-server-docker:latest
     ports:
       - 6969:6969
     environment:
